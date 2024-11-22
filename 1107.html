@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Petal box</title>
+    <style>
+        * {
+            /* 取消預設邊界 */
+            margin: 0;
+            /* 取消預設縮排 */
+            padding: 0;
+            /* 字型設定 */
+            /* font-family: 微軟正黑體; */
+            max-width: 100%;
+        }
+
+
+        .wrap {
+            /* 固定寬度 */
+            width: 1200px;
+
+            /* 段隨著網頁移動: div 的網頁(頁邊)置中對齊 */
+            margin: auto;
+            /* 文字及物件的置中對齊 */
+            /* text-align: center; */
+
+        }
+
+
+
+        body {
+            background-color: rgb(239, 220, 245);
+        
+
+
+        }
+
+       
+        
+
+        .header img {
+           
+
+            position: absolute;
+              left: 3px;  
+            /* top: 10px; */
+
+        }
+
+        /* 首頁區-左側超連結清單水平排列 */
+        .header h1 {
+            position: absolute;
+            left: 200px;
+            top: 30px;
+        }
+
+        /* 首頁區左側超連結色彩 */
+        .header h1 a {
+            /* 選單區超連結底線:取消 */
+            text-decoration: none;
+            /* 超連結字體顏色 */
+            color: #173842;
+        }
+
+        /* 首頁區-右側選單區超連結 */
+        .header ul {
+           
+            position: absolute;
+            right: 20px;
+            top: 50px;
+
+            /* 取消項目符號 */
+            list-style: none;
+
+        }
+
+        /* 首頁區-右側選單區超連結清單水平排列 */
+        .header ul li {
+            /* 浮動屬性(貼齊父容器的左內緣) */
+            float: left;
+            /* 設定元素與元素之間的右邊界間距 */
+            margin-right: 20px;
+        }
+
+        /* 首頁區-右側選單區超連結色彩 */
+        .header ul li a {
+            /* 選單區超連結底線:取消 */
+            text-decoration: none;
+            /* 超連結字體顏色 */
+            color: #c451e0;
+            /* 字體大小 */
+            font-size: 15px
+        }
+
+        .header ul li a:hover {
+            /* 背景色 */
+            
+            /* 字體色 */
+            color: #c891e2;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+
+        <!-- 頭 -->
+        <div class="header">
+            <!-- 圖片連結(尚未設置點擊轉跳首頁) -->
+            <div class="icon"><a href="#"><img src="./img/pic1.png" alt="icon"></a>
+            </div>
+            <!-- 右上方 (尚未設置點擊轉跳首頁) -->
+            <h1><a href="#"><img src="./img/name.png" alt=""></a></h1>
+            <!-- 選單區 -->
+            <div class="nav">
+                <ul>
+                    <li><a href="./img/pic2.png">關於我們</a></li>
+                    <li><a href="./img/pic3.png">本月新品</a></li>
+                    <li><a href="./img/pic4.png">熱銷商品</a></li>
+                    <li><a href="./img/pic5.png">花束盆花</a></li>
+                    <li><a href="./img/pic6.png">購物須知</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+
+
+    </div>
+</body>
+
+</html>
